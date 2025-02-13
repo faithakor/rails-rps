@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rails RPS</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+  </head>
+
+  <body>
+    <h1>We played <%= @player_move %>!</h1>
+    <h2>They played <%= @computer_move %>!</h2>
+    <h3><%= @result %></h3>
+
+    <div><a href="/">Back to Rules</a></div>
+    <div><a href="/rock">Play Rock</a></div>
+    <div><a href="/paper">Play Paper</a></div>
+    <div><a href="/scissors">Play Scissors</a></div>
+  </body>
+</html>
